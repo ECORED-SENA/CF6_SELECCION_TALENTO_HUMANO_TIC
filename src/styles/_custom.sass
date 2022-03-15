@@ -1,0 +1,132 @@
+// General
+.animated
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@keyframes fadeIn
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+.fadeIn
+  animation-name: fadeIn
+
+.img70
+  max-width: 70px !important
+
+.img90
+  max-width: 90px !important
+
+.img112
+  max-width: 112px !important
+
+.img180
+  max-width: 180px !important
+
+.img450
+  max-width: 450px !important
+
+
+.bg-color-sistema-h
+  background-color: $color-sistema-h !important
+  
+// Introducción
+.dots
+  position: relative
+  position: absolute
+  top: 75%
+  right: 5%
+  @media screen and (max-width: 500px)
+    display: none
+  @media screen and (max-width: 1199px)
+    top: 85%
+
+// Tema 1
+.cajon.color-acento-botones:before
+  background-color: #EFD198 !important
+
+.bg-cajon-amarillo       
+  background-color: #FFFAD8 !important
+
+.bg-cajon-lila       
+  background-color: #EDE7F7 !important
+
+.bg-1
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema1/bg-1.svg")
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 910px
+    margin: 0 -3rem  
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color:#FFFAD8 !important
+  
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color:#EFD198
+
+.tarjeta-slyde
+  background-color: #FFF
+  max-width: 300px
+  height: 480px
+
+.bg-slyder  
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema1/bg-slyder.svg")
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 916px
+    margin: 0 -3rem
+
+.tarjeta-tipo-organigrama
+  width: 140px
+  height: 140px      
+
+.simbologia *
+  cursor: pointer
+
+.dialogo  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  padding: 30px
+  border-radius: 20px
+  position: absolute
+  background-color: white
+  width: 400px
+  transform: translate(-50%)
+  &__azul 
+    background-color: #2A77AD
+    h5, p
+      color: #FFF
+  &__gris 
+    background: rgb(167,179,207);
+    background: linear-gradient(0deg, rgba(167,179,207,1) 20%, rgba(245,245,245,1) 82%, rgba(246,246,246,1) 100%);
+    h5, p
+      color: black
+
+.titulo_modal
+  position: absolute
+  right: 0%
+  top: -30px
+  font-size: 50px
+  font-weight: bold
+  &_azul
+    color: rgba(#FFFFFF, 0.27) !important
+  &_gris
+    color: rgba(#12263F, 0.27) !important
+  
