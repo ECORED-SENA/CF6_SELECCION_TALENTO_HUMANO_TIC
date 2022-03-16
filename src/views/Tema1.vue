@@ -22,14 +22,14 @@
                 h3 Organización
                 p Conjunto de personas que comparten una meta común, para ello desarrollan de manera coordinada una serie de actividades, utilizando recursos financieros, humanos, materiales, técnicos, y tecnológicos. Dentro del recurso humano se encuentran las personas quienes la administran, a través del proceso de planeación, organización, dirección y control.
                 .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
-                  p.mb-0 Para cumplir con el direccionamiento estratégico de la organización esta debe dividirse en actividades con el objeto de desarrollarlas de manera eficiente y eficaz. Cada actividad y tarea se estructura dentro de un cargo.
+                  p Para cumplir con el direccionamiento estratégico de la organización esta debe dividirse en actividades con el objeto de desarrollarlas de manera eficiente y eficaz. Cada actividad y tarea se estructura dentro de un cargo.
 
           .py-3.py-md-4(titulo="Direccionamiento estratégico")
             .row.mb-5.d-flex.align-items-center
               .col.col-12.col-lg-7.px-5.justify-content-center
                 h3 Direccionamiento estratégico
                 .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
-                  p.mb-0 Es el marco que orienta los planes y acciones de la organización, lo integran la filosofía organizacional, la estrategia y el plan para alcanzar los objetivos, soporte de la cultura organizacional.
+                  p Es el marco que orienta los planes y acciones de la organización, lo integran la filosofía organizacional, la estrategia y el plan para alcanzar los objetivos, soporte de la cultura organizacional.
                 p Debe ser compartido con todos en la organización y contribuir en el desarrollo de cada uno de los miembros que la conforman, el direccionamiento estratégico define la razón de ser de la organización a través de su misión, la proyección que tiene con la declaración de su visión y los comportamientos que todos en la organización deben exhibir, valores, para el cumplimiento de la estrategia organizacional.
               .col.col-12.col-lg-5
                 picture
@@ -63,7 +63,7 @@
       .row.justify-content-center
         .col.col-12
           .cajon.color-acento-contenido.bg-cajon-lila.p-4.mb-4
-            p.mb-0 Para la construcción de la estructura organizacional, se estipula cuál será la distribución, configuración y el nivel de especialización del trabajo, y es a través de esta construcción que se identifican los niveles de autoridad, las áreas con las que funciona, la comunicación de interdependencia entre las áreas, enmarcada en la cultura organizacional. La estructura organizacional puede ser formal o informal.
+            p Para la construcción de la estructura organizacional, se estipula cuál será la distribución, configuración y el nivel de especialización del trabajo, y es a través de esta construcción que se identifican los niveles de autoridad, las áreas con las que funciona, la comunicación de interdependencia entre las áreas, enmarcada en la cultura organizacional. La estructura organizacional puede ser formal o informal.
 
         .col.col-10.col-lg-5.px-2
           SlyderF.mb-5(columnas="col-12")
@@ -154,7 +154,7 @@
           .col.col-12.col-lg-7
             p Con el fin de ilustrar la estructura organizacional y entenderla sin leerla textualmente, se utilizan símbolos en formas geométricas para expresar la comunicación, los vínculos, los niveles organizacionales, las unidades de categoría especial como la línea staff, etc. Los cuales cuentan con un significado específico para que haya comprensión de lo que se pretende presentar.
             .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
-              p.mb-0 La simbología más empleada por las organizaciones es:
+              p La simbología más empleada por las organizaciones es:
           .col.col-12.col-lg-5
             picture
               img(src='@/assets/curso/tema1/img10.png', alt='Simbología', class='img-fluid')

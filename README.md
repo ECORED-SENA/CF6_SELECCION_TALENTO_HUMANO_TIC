@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF6_SELECCION_TALENTO_HUMANO_TIC](https://ecored-sena.github.io/CF6_SELECCION_TALENTO_HUMANO_TIC)
 
 #
 
