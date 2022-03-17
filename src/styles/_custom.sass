@@ -27,7 +27,10 @@
 .img180
   max-width: 180px !important
 
-.img450
+.img350
+  max-width: 350px !important
+
+  .img450
   max-width: 450px !important
 
 .cajon > p
@@ -140,6 +143,48 @@
   background-color: #EEF6FC  
 
 // Tema3
+.bg-img-celeste
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema3/bg-celeste.svg")
+    position: absolute
+    bottom: 12%
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 666px
+    margin: 0 -3rem  
+
+.bg-img-competencia
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema3/bg-celeste.svg")
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 500px
+    margin: 0 -3rem  
+
+.bg-img-linea-tiempo
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema3/bg-linea.svg")
+    position: absolute
+    bottom: 7%
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 651px
+    margin: 0 -3rem  
+
 .texto-azul
   color: #33A0F7    
 
@@ -162,8 +207,115 @@
   background: rgb(167,179,207)
   background: linear-gradient(0deg, rgba(167,179,207,1) 0%, rgba(245,245,245,1) 100%)
 
+.bg-gradiente-gris  
+  background: rgb(167,179,207)
+  background: linear-gradient(0deg, rgba(167,179,207,1) 0%, rgba(245,245,245,1) 100%)
+
+.slyder-a__btn--atrs
+  left: -70px !important
+
+.slyder-a__btn--sigt
+  left: 100%
+
+.bg-img-slyder
+  background-image: url("../assets/curso/tema3/bg-img-slyder.png")
+  background-repeat: no-repeat
+  background-size: cover
+
+.numero-slyder
+  position: absolute
+  top: -120px
+  left: 1%
+  font-size: 150px
+  font-weight: bold
+  color: rgba(#12263F, 0.09) !important
+  &::before
+    content: ''
+    width: 90%
+    height: 15%
+    background-color: rgba($color-acento-contenido, 0.15) !important
+    position: absolute
+    bottom: 7%
+    left: 50%
+
+.tarjeta-competencias
+  text-align: center
+  width: 300px
+  height: auto
+  padding: 0 !important
+  background-color: #F7F7F7
+  border: 1px solid #f1f1f1
+  border-radius: 0 0 10px 10px
+  box-shadow: 1px 1px 5px gray
+  h5  
+    margin: 0
+    padding: 10px
+    &.lila
+      background-color: #EAE5F5
+    &.celeste
+      background-color: #D1E5FC
+    &.gris
+      background-color: #E8E8E8
+
+.tarjeta-competencias-morada
+  background: rgb(126,83,197);
+  background: linear-gradient(0deg, rgba(126,83,197,1) 20%, rgba(8,3,131,1) 100%);
+  padding: 50px
+  height: 380px
+  border-radius: 10px
+  position: relative
+  p  
+    color: #FFF !important
+  &::before
+    content: url("../assets/curso/tema3/arrows.svg")
+    position: absolute
+    bottom: 5%
+    right: 5%
 
 
+table.competencia
+  border: 1px solid #707070
+  border-collapse: collapse
+  border-radius: 1em
+  overflow: hidden 
+  box-shadow: 1px 1px 5px gray
+  width: 100%
+  text-align: left
 
+  td, th
+    border: 1px solid #707070
+    padding: 10px 10px
 
+  thead
+    background: #116FBB
+    background: -moz-linear-gradient(top, #4c93cc 0%, #287dc1 66%, #116FBB 100%)
+    background: -webkit-linear-gradient(top, #4c93cc 0%, #287dc1 66%, #116FBB 100%)
+    background: linear-gradient(to bottom, #4c93cc 0%, #287dc1 66%, #116FBB 100%)
+    border-bottom: 2px solid #444444
+
+    th
+      font-size: 25px
+      font-weight: bold
+      color: #FFFFFF
+      text-align: center
+      border-left: 2px solid #D0E4F5
+
+      &:first-child
+        border-left: none
+
+.borde-redondeado
+  border-radius: 1em
+  box-shadow: 1px 1px 5px gray
+  border-collapse: collapse
+  overflow: hidden 
+
+.letra-tabla
+  font-size: 100px
+  background-color: #E8E8E8
+  p
+    font-weight: bolder
+    color: rgba(#12263F, 0.23) !important    
+
+.bg-parrafo-tabla
+  background-color: #C9E8FF
 
