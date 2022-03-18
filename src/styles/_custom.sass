@@ -38,7 +38,10 @@
 
 .bg-color-sistema-h
   background-color: $color-sistema-h !important
-  
+
+.titulo-sexto.color-acento-botones
+  border-left-color: #FFA726
+
 // Introducción
 .dots
   position: relative
@@ -319,3 +322,52 @@ table.competencia
 .bg-parrafo-tabla
   background-color: #C9E8FF
 
+// Tema 4
+table.titulo
+  border: 1px solid #AFAFAF
+  background-color: #FFF
+  width: 100%
+  text-align: center
+  border-collapse: collapse
+  thead
+    background: #FFF
+    border-bottom: 2px solid #444444
+    tr:nth-child(1)
+      background: #12263F !important
+      border-top: 4px solid #FFA726
+      th
+        color: #FFF !important
+
+
+table.peligros
+  border: 1px solid #AFAFAF
+  background-color: #FFF
+  width: 100%
+  text-align: center
+  border-collapse: collapse
+
+  td, th
+    border: 1px solid #AAAAAA
+    padding: 15px 15px
+
+  tbody td
+    font-size: 13px
+
+  tr:nth-child(even)
+    background: #E8E8E8
+
+  thead
+    background: #E8E8E8
+    background: -moz-linear-gradient(top, #eeeeee 0%, #eaeaea 66%, #E8E8E8 100%)
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #eaeaea 66%, #E8E8E8 100%)
+    background: linear-gradient(to bottom, #eeeeee 0%, #eaeaea 66%, #E8E8E8 100%)
+    border-bottom: 2px solid #444444
+
+    th
+      font-size: 15px
+      font-weight: bold
+      color: #12263F
+      text-align: center
+
+      &:first-child
+        border-left: none  

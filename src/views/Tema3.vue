@@ -423,15 +423,17 @@
               p Estructurar los cargos es una actividad que requiere evaluar todas las condiciones requeridas en diversos perfiles y a su vez existen métodos para ello, lo cual se detalla a continuación.
               .row.mt-5
                 .col.col-6
-                  a(href="#observatorio") Observatorio laboral
+                  a(href="#observatorio")
+                    img(src='@/assets/curso/tema3/img19.svg', alt='', class='img-fluid')
                 .col.col-6
-                  a(href="#metodos") Métodos o fuentes
+                  a(href="#metodos")
+                    img(src='@/assets/curso/tema3/img20.svg', alt='', class='img-fluid')
 
       .row.mt-5
+        .col.col-3.mb-2
+          #observatorio.titulo.bg-cajon-lila.d-flex.align-items-center.p-2 
+            h2.m-0 Observatorio laboral
         .col.col-12
-          #observatorio.titulo 
-            h2 Observatorio laboral
-
           .row.mb-2.d-flex.align-items-center
             .col.col-12.col-lg-7
               p Con el objeto de organizar las ocupaciones a nivel nacional e internacional se ha creado el Observatorio laboral donde se encuentran clasificadas todas las ocupaciones de acuerdo a las necesidades del mercado laboral en relación a su talento humano y a la formación, es así, como a través del observatorio laboral se monitorea el comportamiento de las ocupaciones.
@@ -468,10 +470,10 @@
 
 
           .row.mb-3.d-flex.align-items-center
-            .col.col-12.col-lg-3
+            .col.col-12.col-lg-4
               picture
                 img(src='@/assets/curso/tema3/img15.png', alt='', class='img-fluid')
-            .col.col-12.col-lg-9
+            .col.col-12.col-lg-8
               p Reconocer la organización sistemática de las ocupaciones existentes en el mercado laboral (denominaciones, funciones, habilidades, conocimientos), son base para la definición de perfiles de cargos.
               .tarjeta.color-primario.p-3.mb-5
                 .row.justify-content-around.align-items-center
@@ -489,17 +491,74 @@
 
           hr              
 
+        .col.col-6.mb-2
+          #metodos.titulo.bg-cajon-lila.d-flex.align-items-center.p-2 
+            titulo     
+              h2.mb-0 Métodos o fuentes de recolección de datos
 
         .col.col-12
-          #metodos.titulo     
-            h2 Métodos o fuentes de recolección de datos
-
           .row.mb-5.d-flex.align-items-center
             .col.col-12.col-lg-7
               p Las fuentes de Información son todos aquellos instrumentos con los que se obtienen los datos requeridos, que luego se transforman en información para la toma de decisiones y obtención de conocimiento.
+              p De acuerdo a su origen se clasifican en:
+              ul.lista-ul--color.ms-5
+                li
+                  i.fas.fa-genderless
+                  p 
+                    span.texto-color-acento-contenido.fw-bold Fuentes primarias: 
+                    | son los datos que se obtienen directamente del lugar donde se hace el estudio o de quien tiene los datos requeridos (población), es decir de primera mano.
+
+                li
+                  i.fas.fa-genderless
+                  p 
+                    span.texto-color-acento-contenido.fw-bold Fuentes secundarias: 
+                    | se obtienen de datos ya elaborados, libros, internet, entre otros.
+
+              .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
+                p Para efectos del levantamiento de la información, en la construcción de la descripción de cargos, se utilizarán fuentes primarias. Dentro de estas tenemos:
+
             .col.col-12.col-lg-5
               picture
-                img(src='@/assets/curso/tema3/img17.png', alt='', class='img-fluid')
+                img(src='@/assets/curso/tema3/img17.png', alt='Las fuentes de Información', class='img-fluid')
+
+
+          .row.mb-5
+            .col.col-12.col-lg-4
+              picture
+                img(src='@/assets/curso/tema3/img18.png', alt='Fuentes primarias', class='img-fluid')
+            .col.col-12.col-lg-8
+              .row.mb-5
+                .col.col-12
+                  LineaTiempoD.color-primario
+                    .row(numero="1" titulo="Observación")
+                      .col-12.mb-4.mb-md-0
+                        p.text-small.mb-0 Es una fuente primaria directa, es decir se toman del lugar o de quien la genera. Los datos se obtienen en el puesto de trabajo del ocupante, no requiere de cuestionario ni de entrevista. Este método es recomendable especialmente en los cargos operativos y en aquellos donde se presentan actividades físicas observables.
+                  
+                    .row(numero="2" titulo="Entrevista")
+                      .col-12.mb-4.mb-md-0
+                        p.text-small.mb-3 Es una fuente primaria indirecta, es la técnica más utilizada, por poseer varias ventajas tales como:
+                        ul.lista-ul--color.ms-4
+                          li
+                            i.fas.fa-genderless
+                            p.text-small El analista puede observar la realización de la tarea mientras hace la entrevista. La entrevista se estructura previamente, como apoyo. 
+
+                        .cajon.color-acento-contenido.bg-cajon-lila.p-3.mb-2
+                          p.text-small Sin embargo, la entrevista también puede generar algunos inconvenientes si previamente no se le explica al trabajador el objetivo de la misma, esto es, que el ocupante del cargo puede hacer conjeturas o presentar expectativas erradas sobre los motivos de la entrevista, y distorsionar un poco la información al exagerar la realización de algunas actividades.
+
+                    .row(numero="3" titulo="Cuestionario o encuesta")
+                      .col-12.mb-4.mb-md-0
+                        p.text-small.mb-3 Es una fuente primaria indirecta, esta fuente permite que haya mayor control en la información que se desea obtener, es importante que se diseñe teniendo en cuenta todos los elementos que hacen parte no solo del contenido del cargo sino de los requisitos del cargo. Se pueden registrar situaciones que pueden ser observadas, individual o de manera grupal, al responsable o responsables del cargo a analizar, es necesario que se construya un cuestionario estándar, aumentando la probabilidad de obtener información objetiva y medible.
+                  
+                        .cajon.color-acento-contenido.bg-cajon-lila.p-3.mb-2
+                          p.text-small Finalmente, como parte de la preparación del cuestionario, se recomienda claridad en los objetivos de su aplicación, tanto para quienes la aplican, como para quienes suministran la información.
+            .col.col-12
+              .row.bg-cajon-celeste.d-flex.align-items-center.p-2.mt-5
+                .col.col-1
+                  img.imgdots(src='@/assets/curso/tema3/dots-blanco-azul.svg', alt='dots', class='img-fluid')
+                .col.col-11
+                  p.mb-0 Antes de tomar la decisión de los métodos de recolección a utilizar es necesario identificar el número de empleados a quienes se le aplicará y hacer un acercamiento con todos los que participaran en la recolección de los datos, significa hacer una sensibilización y explicación de la actividad.
+
+
 </template>
 
 <script>
