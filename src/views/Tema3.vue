@@ -9,8 +9,8 @@
             span.text-white 3
           h1 Diseño del cargo
 
-        .row.mb-5.d-flex.align-items-center
-          .col.col-12.col-lg-7
+        .row.mb-5.position-relative.bg-gris-izquierdo
+          .col.col-12.col-lg-7.pe-4
             p Diseñar un cargo se refiere a la forma en que se organiza el trabajo, identifica las tareas necesarias, que permiten el desempeño de un cargo. Para diseñar un cargo es necesario tener claro cuál es el flujo de trabajo existente en la empresa (procedimiento), el diseño de cargo es la base fundamental para la planeación del área de 
               span.texto-color-acento-contenido.fw-bold Talento Humano, 
               | este esquema se convierte en el punto de partida para los demás procesos del área y la asignación en la remuneración del cargo.
@@ -25,7 +25,7 @@
 
         .bg-img-celeste
           .row.mb-5.d-flex.align-items-center
-            #t_3_1.titulo-segundo.color-secundario
+            #t_3_1.titulo-segundo.color-acento-contenido
               h2 3.1 Descripción y análisis de cargo
             .col.col-12.col-lg-5
               picture
@@ -54,10 +54,9 @@
                 li
                   i.fas.fa-genderless
                   | Inicio de la planeación de los otros procesos del área de Talento Humano. (selección, inducción, evaluación de desempeño, escala salarial).
-
-            p.texto-azul.text-decoration-underline.fw-bold.fs-4 Contenido de un cargo
-
-            //- .row.d-flex.flex-wrap.justify-content-center
+            
+            .col-12.mt-5
+              p.texto-azul.text-decoration-underline.fw-bold.fs-4 Contenido de un cargo
             .col.mb-4.px-1
               .tarjeta.tarjeta-azul.p-4
                 .row.justify-content-center.mb-3
@@ -71,7 +70,7 @@
               .tarjeta.tarjeta-gris.p-4
                 .row.justify-content-center.mb-3
                   .col-12
-                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon1.svg', alt='¿Qué hace?')
+                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon2.svg', alt='¿Qué hace?')
                     h3.text-center ¿Cuándo lo hace?
                     p.text-center.mb-0 Tiempo que requiere la tarea.
 
@@ -79,7 +78,7 @@
               .tarjeta.tarjeta-azul.p-4
                 .row.justify-content-center.mb-3
                   .col-12
-                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon1.svg', alt='¿Qué hace?')
+                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon3.svg', alt='¿Qué hace?')
                     h3.text-center ¿Cómo lo hace?
                     p.text-center.mb-0 Recursos (Humanos, materiales, equipos) y métodos.
 
@@ -87,7 +86,7 @@
               .tarjeta.tarjeta-gris.p-4
                 .row.justify-content-center.mb-3
                   .col-12
-                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon1.svg', alt='¿Qué hace?')
+                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon4.svg', alt='¿Qué hace?')
                     h3.text-center ¿Dónde lo hace?
                     p.text-center.mb-0 Lugar de trabajo.
 
@@ -95,16 +94,16 @@
               .tarjeta.tarjeta-azul.p-4
                 .row.justify-content-center.mb-3
                   .col-12
-                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon1.svg', alt='¿Qué hace?')
+                    img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon5.svg', alt='¿Qué hace?')
                     h3.text-center ¿Por qué lo hace?
                     p.text-center.mb-0 Razón de ser de la existencia del cargo.
 
-        .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
-          p El análisis del cargo se refiere a los requisitos que debe exhibir quien desempeñará el cargo, es decir, los conocimientos, experiencia, habilidades, destrezas del trabajador. Una vez se conoce el contenido del cargo, se hace la descripción del mismo, se lleva a cabo el análisis de toda la información en términos de cuál es el saber, el hacer y las características personales que requiere el cargo, el análisis de las condiciones de trabajo permite identificar los riesgos a los que se ve expuesta el ocupante del cargo en su ejercicio.
-        
+          .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
+            p El análisis del cargo se refiere a los requisitos que debe exhibir quien desempeñará el cargo, es decir, los conocimientos, experiencia, habilidades, destrezas del trabajador. Una vez se conoce el contenido del cargo, se hace la descripción del mismo, se lleva a cabo el análisis de toda la información en términos de cuál es el saber, el hacer y las características personales que requiere el cargo, el análisis de las condiciones de trabajo permite identificar los riesgos a los que se ve expuesta el ocupante del cargo en su ejercicio.
+          
         br
 
-        .row.mb-5.d-flex.align-items-center
+        .row.mb-5.position-relative.bg-gris-izquierdo
           .col.col-12.col-lg-7
             p.texto-azul.text-decoration-underline.fw-bold.fs-4 Exigencias del cargo
             p El análisis permite la construcción del perfil del cargo, que se convierte en una fuente de información básica para los procesos de reclutamiento de personal. Un buen análisis del cargo permite la construcción del perfil del cargo, siendo así necesario destacar que, debe hacerse de manera objetiva, no evaluando a la persona que se encuentra ocupando el cargo al momento de hacer la descripción, si no teniendo de referente únicamente el cargo.
@@ -134,7 +133,7 @@
               img(src='@/assets/curso/tema3/img03.png', alt='Exigencias del cargo', class='img-fluid')
 
 
-        .row.mb-5.d-flex.align-items-center
+        .row.mb-5
           .col.col-12.col-lg-5
             picture
               img(src='@/assets/curso/tema3/img04.png', alt='Descripción del cargo', class='img-fluid')
@@ -153,80 +152,84 @@
 
             p A continuación, se detallan las actividades generales para la identificación y descripción del cargo:
 
-        p.texto-azul.text-decoration-underline.fw-bold.fs-4 Actividades generales para la identificación y descripción del cargo 
-        .bg-img-linea-tiempo
-          .row.mb-5.d-flex.justify-content-center
-            .col.col-12.col-lg-7
-              LineaTiempoD.color-primario
-                .row(numero="1" titulo="Denominación del cargo")
-                  .col-12.mb-4.mb-md-0
-                    p.text-small.mb-0 Término o nombre con el que se conoce cada cargo en la organización.
-              
-                .row(numero="2" titulo="Reconocimiento")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Nivel de la posición del cargo dentro de la estructura organizacional.
+        .row.mb-5
+          .col-12
+            p.texto-azul.text-decoration-underline.fw-bold.fs-4 Actividades generales para la identificación y descripción del cargo 
+            .bg-img-linea-tiempo
+              .row.mb-5.d-flex.justify-content-center
+                .col.col-12.col-lg-7
+                  LineaTiempoD.color-primario
+                    .row(numero="1" titulo="Denominación del cargo")
+                      .col-12.mb-4.mb-md-0
+                        p.text-small.mb-0 Término o nombre con el que se conoce cada cargo en la organización.
+                  
+                    .row(numero="2" titulo="Reconocimiento")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Nivel de la posición del cargo dentro de la estructura organizacional.
 
-                .row(numero="3" titulo="Determinar el código del cargo")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Formado por cuatro dígitos (los dígitos indican: área, nivel y ocupación).
+                    .row(numero="3" titulo="Determinar el código del cargo")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Formado por cuatro dígitos (los dígitos indican: área, nivel y ocupación).
 
-                .row(numero="4" titulo="Identificar el área funcional del cargo")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 De acuerdo con la ubicación dentro de la estructura organizacional.
+                    .row(numero="4" titulo="Identificar el área funcional del cargo")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 De acuerdo con la ubicación dentro de la estructura organizacional.
 
-                .row(numero="5" titulo="Reconocimiento del cargo del jefe inmediato")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Identificar dentro de la estructura organizacional.
+                    .row(numero="5" titulo="Reconocimiento del cargo del jefe inmediato")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Identificar dentro de la estructura organizacional.
 
-                .row(numero="6" titulo="Delimitar el propósito del cargo")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Objetivo, misión o razón de ser del cargo.
+                    .row(numero="6" titulo="Delimitar el propósito del cargo")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Objetivo, misión o razón de ser del cargo.
 
-                .row(numero="7" titulo="Describir las funciones en términos de")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Qué hace, cómo lo hace, cuándo lo hace y dónde lo hace.
+                    .row(numero="7" titulo="Describir las funciones en términos de")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Qué hace, cómo lo hace, cuándo lo hace y dónde lo hace.
 
-                .row(numero="8" titulo="Determinar los requisitos del cargo")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Intelectuales, físicos.
+                    .row(numero="8" titulo="Determinar los requisitos del cargo")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Intelectuales, físicos.
 
-                .row(numero="9" titulo="Definir los conocimientos")
-                  .col-12.mb-4.mb-md-0
-                    p.text-smallmb-0 Esenciales para ocupar el cargo. Saber y Hacer.
-                    ul.lista-ul--color.ms-5
-                      li
-                        i.fas.fa-genderless.text-small
-                        p.mb-0.text-small Fijar responsabilidades del cargo.
-                      li
-                        i.fas.fa-genderless.text-small
-                        p.mb-0.text-small Especificar los riesgos asociados al cargo.
+                    .row(numero="9" titulo="Definir los conocimientos")
+                      .col-12.mb-4.mb-md-0
+                        p.text-smallmb-0 Esenciales para ocupar el cargo. Saber y Hacer.
+                        ul.lista-ul--color.ms-5
+                          li
+                            i.fas.fa-genderless.text-small
+                            p.mb-0.text-small Fijar responsabilidades del cargo.
+                          li
+                            i.fas.fa-genderless.text-small
+                            p.mb-0.text-small Especificar los riesgos asociados al cargo.
 
-            .col.col-12.col-lg-5
-              picture
-                img(src='@/assets/curso/tema3/img05.png', alt='Actividades generales', class='img-fluid')
+                .col.col-12.col-lg-5
+                  picture
+                    img(src='@/assets/curso/tema3/img05.png', alt='Actividades generales', class='img-fluid')
 
-            .col.col-11.mt-4
-              .row.bg-cajon-lila.d-flex.align-items-center.p-2.rounded-3
-                .col.col-1
-                  img.imgdots(src='@/assets/curso/tema3/dots-lila.svg', alt='dots', class='img-fluid')
-                .col.col-11
-                  p.mb-0 Un cargo bien estructurado es una puerta abierta al éxito para los otros procesos dentro del área de talento humano; en lo que respecta a selección permite atraer y escoger el candidato idóneo para el perfil de búsqueda.
-
-        p La inducción, es el inicio de un tránsito que contribuye a la apropiación de la cultura organizacional y directrices claras de actuación en la forma de comportarse con sus jefes, compañeros, clientes, proveedores. Para la evaluación de desempeño, es el mapa a seguir en lo que respecta a qué evaluar en el trabajador, y cuáles serían los indicadores a valorar. En cuanto a la capacitación, determina el plan de formación, desarrollo y de carrera que debe seguir el trabajador, como guía clara para el enriquecimiento del cargo y posibles ascensos en la organización.
+                .col.col-11.mt-4
+                  .row.bg-cajon-lila.d-flex.align-items-center.p-2.rounded-3
+                    .col.col-1
+                      img.imgdots(src='@/assets/curso/tema3/dots-lila.svg', alt='dots', class='img-fluid')
+                    .col.col-11
+                      p.mb-0 Un cargo bien estructurado es una puerta abierta al éxito para los otros procesos dentro del área de talento humano; en lo que respecta a selección permite atraer y escoger el candidato idóneo para el perfil de búsqueda.
+          .col.col-12.mt-2
+            p La inducción, es el inicio de un tránsito que contribuye a la apropiación de la cultura organizacional y directrices claras de actuación en la forma de comportarse con sus jefes, compañeros, clientes, proveedores. Para la evaluación de desempeño, es el mapa a seguir en lo que respecta a qué evaluar en el trabajador, y cuáles serían los indicadores a valorar. En cuanto a la capacitación, determina el plan de formación, desarrollo y de carrera que debe seguir el trabajador, como guía clara para el enriquecimiento del cargo y posibles ascensos en la organización.
 
         separador
 
       .col.col-12
-        .titulo-segundo.color-secundario
+        .titulo-segundo.color-acento-contenido
           h2 3.1.1 Cargo  
 
-        .row.mb-5.d-flex.align-items-center
+        .row.mb-5
           .col.col-12.col-lg-5
             picture
               img(src='@/assets/curso/tema3/img06.png', alt='Cargo', class='img-fluid')
-          .col.col-12.col-lg-7
+          .col.col-12.col-lg-7.position-relative
+            br
+            br
             p Todo trabajador en una organización tiene un cargo, el cual delimita la función que ejerce el trabajador en la empresa, esta función se cumple a través de la asignación de tareas que la organización hace al trabajador para el cumplimento de los objetivos organizacionales. El cargo y su ubicación en la estructura organizacional determina el elemento motivacional en el trabajador, ya que el mismo, formaliza el rol que la persona tiene en la organización.
-            .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
+            .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4.mover-izquierda
               p 
                 span.texto-azul.fw-bold Según Chiavenato (2003), 
                 | el cargo es la descripción de todas las actividades desempeñadas por una persona englobadas en un todo unificado.
@@ -245,7 +248,7 @@
       .bg-img-competencia   
         .row
           .col.col-12.mt-4
-            .titulo-segundo.color-secundario
+            .titulo-segundo.color-acento-contenido
               h2 3.1.2 Competencia y niveles de cualificación
             
             .row.d-flex.justify-content-center.position-relative
@@ -412,7 +415,7 @@
 
       .row.mt-5
         .col.col-12
-          #t_3_2.titulo-segundo.color-secundario
+          #t_3_2.titulo-segundo.color-acento-contenido
             h2 3.2 Herramientas para estructuración de cargos
 
           .row.mb-5.d-flex.align-items-center
