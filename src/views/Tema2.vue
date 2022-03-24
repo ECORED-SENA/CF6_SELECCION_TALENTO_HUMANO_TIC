@@ -9,15 +9,15 @@
             span.text-white 2
           h1 Cultura organizacional
         .bg-t2
-          .row.mb-5.d-flex.align-items-center
+          .row.mb-5
             .col.col-12.col-lg-5
               picture
-                img(src='@/assets/curso/tema2/img01.png', alt='Cultura organizacional', class='img-fluid')
+                img.img450(src='@/assets/curso/tema2/img01.png', alt='Cultura organizacional', class='img-fluid')
             .col.col-12.col-lg-7
-              .row
-                .col.col-1
+              .row.mt-5
+                .col.col-1.mt-4
                   img(src='@/assets/curso/tema2/dots.svg', alt='dots', class='img-fluid')
-                .col.col-11  
+                .col.col-11.mt-4  
                   p Todas las personas hacen parte de un sistema de cultura, si se refiere al término de manera genérica se puede afirmar que es un conjunto de costumbres, creencias, características específicas de comportamiento que comparte un grupo de individuos.
               br
               p Referido a las organizaciones, se puede decir que la cultura es la forma característica en que se relacionan los trabajadores en la organización, 
@@ -41,9 +41,9 @@
       .col.col-1
         img.imgdots(src='@/assets/curso/tema2/dots.svg', alt='dots', class='img-fluid')
       .col.col-11
-        p.mb-0 Para ampliar información se puede visualizar el video Cultura organizacional, el cual se encuentra en el material complementario, donde se aborda el concepto y los elementos que conforman la cultura organizacional.
-
-
+        p.mb-0 Para ampliar información se puede visualizar el video 
+          span.fw-bold Cultura organizacional, 
+          | el cual se encuentra en el material complementario, donde se aborda el concepto y los elementos que conforman la cultura organizacional.
 
 
 </template>

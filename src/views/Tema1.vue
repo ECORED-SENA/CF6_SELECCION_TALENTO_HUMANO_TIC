@@ -61,7 +61,7 @@
 
 
     .bg-slyder
-      .row.justify-content-center
+      .row
         .col.col-12
           .cajon.color-acento-contenido.bg-cajon-lila.p-4.mb-4
             p Para la construcción de la estructura organizacional, se estipula cuál será la distribución, configuración y el nivel de especialización del trabajo, y es a través de esta construcción que se identifican los niveles de autoridad, las áreas con las que funciona, la comunicación de interdependencia entre las áreas, enmarcada en la cultura organizacional. La estructura organizacional puede ser formal o informal.
@@ -88,7 +88,7 @@
                 img.img112(src='@/assets/curso/tema1/slyder04.svg' alt='AvatarTop')
                 p.mb-0.mt-5.text-center De igual forma la estructura formal debe ser lo suficientemente flexible, para poder adaptarse rápidamente a la dinámica acelerada en que se encuentra el mundo en la actualidad.
           
-        .col.col-12.col-lg-5
+        .col.col-10.col-lg-5
           picture
             img(src='@/assets/curso/tema1/img04.png', alt='Estructura organizacional', class='img-fluid')
 
@@ -167,9 +167,9 @@
                 img(src='@/assets/curso/tema1/img10.png', alt='Simbología', class='img-fluid')
 
         .col.col-12
-          .row.mb-5.d-flex.align-items-center
-            .col.col-12.col-lg-5
-              img.img450.m-auto(src='@/assets/curso/tema1/img11.svg', alt='', class='img-fluid')
+          .row.mb-5.d-flex.align-items-center.justify-content-center
+            .col.col-12.col-lg-4.d-flex.justify-content-end
+              img.img450(src='@/assets/curso/tema1/img11.svg', alt='', class='img-fluid')
             .col.col-12.col-lg-7
               .row.d-flex.justify-content-center.position-relative
                 .col-12

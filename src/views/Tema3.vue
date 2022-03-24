@@ -44,7 +44,7 @@
                   | Definir una compensación equitativa a los trabajadores.
                 li
                   i.fas.fa-genderless
-                  | Ubicar en los cargos de acuerdo al perfil del cargo.
+                  | Ubicar en los cargos de acuerdo con el perfil del cargo.
                 li
                   i.fas.fa-genderless
                   | Diseñar planes de carrera para los empleados y su respectiva planificación de la formación que requieren.
@@ -56,7 +56,9 @@
                   | Inicio de la planeación de los otros procesos del área de Talento Humano. (selección, inducción, evaluación de desempeño, escala salarial).
             
             .col-12.mt-5
-              p.texto-azul.text-decoration-underline.fw-bold.fs-4 Contenido de un cargo
+              br
+              p.texto-azul.text-decoration-underline.fw-bold.fs-5 Contenido de un cargo
+              br
             .col.mb-4.px-1
               .tarjeta.tarjeta-azul.p-4
                 .row.justify-content-center.mb-3
@@ -105,7 +107,7 @@
 
         .row.mb-5.position-relative.bg-gris-izquierdo
           .col.col-12.col-lg-7
-            p.texto-azul.text-decoration-underline.fw-bold.fs-4 Exigencias del cargo
+            p.texto-azul.text-decoration-underline.fw-bold.fs-5 Exigencias del cargo
             p El análisis permite la construcción del perfil del cargo, que se convierte en una fuente de información básica para los procesos de reclutamiento de personal. Un buen análisis del cargo permite la construcción del perfil del cargo, siendo así necesario destacar que, debe hacerse de manera objetiva, no evaluando a la persona que se encuentra ocupando el cargo al momento de hacer la descripción, si no teniendo de referente únicamente el cargo.
             ul.lista-ul--color.ms-5
               li
@@ -138,7 +140,7 @@
             picture
               img(src='@/assets/curso/tema3/img04.png', alt='Descripción del cargo', class='img-fluid')
           .col.col-12.col-lg-7
-            p.texto-azul.text-decoration-underline.fw-bold.fs-4 La descripción del cargo incluye tres momentos:
+            p.texto-azul.text-decoration-underline.fw-bold.fs-5 La descripción del cargo incluye tres momentos
             ul.lista-ul--color.ms-5
               li
                 i.fas.fa-genderless
@@ -154,7 +156,7 @@
 
         .row.mb-5
           .col-12
-            p.texto-azul.text-decoration-underline.fw-bold.fs-4 Actividades generales para la identificación y descripción del cargo 
+            p.texto-azul.text-decoration-underline.fw-bold.fs-5 Actividades generales para la identificación y descripción del cargo 
             .bg-img-linea-tiempo
               .row.mb-5.d-flex.justify-content-center
                 .col.col-12.col-lg-7
@@ -332,15 +334,15 @@
                 img(src='@/assets/curso/tema3/img09.svg', alt='Texto que describa la imagen')
           
             .tarjeta-competencias(x='51%' y='11%' numero='')
-              h5.lila.mb-2 Competencias del Ser
+              h5.lila.mb-2 Competencias del ser
               p.px-4 Tienen que ver con las actitudes, con la autoimagen, con los rasgos de carácter, con la personalidad, son las más difíciles de medir (competencias conductuales).
           
             .tarjeta-competencias(x='27%' y='60%' numero='')
-              h5.celeste.mb-2 Competencias del Saber
+              h5.celeste.mb-2 Competencias del saber
               p.px-4 Conocimiento que se utiliza para áreas concretas (competencias laborales).
           
             .tarjeta-competencias(x='73%' y='60%' numero='')
-              h5.gris.mb-2 Competencias del Saber Hacer
+              h5.gris.mb-2 Competencias del saber hacer
               p.px-4 Capacidad o destreza, adquirida que se utiliza para hacer una cosa (competencias técnicas).
 
         .col.col-12
@@ -371,7 +373,7 @@
 
       .row.mt-5
         .col.col-12
-          p Un grupo de expertos (Directivos, Empleados, Jefes de áreas, Talento Humano, Asesor externo), definen las competencias tanto generales como las específicas, indicando los comportamientos que serían indicadores de máximo desempeño, esta decisión permitirá que las competencias se dividan en niveles o grados, tal como se muestra en la tabla 1, ejemplo de una competencia con sus niveles o grados también llamados descriptores de conductas. Es importante tener en cuenta que el Grado D, indica que la competencia está desarrollada en un nivel mínimo.
+          p Un grupo de expertos (directivos, empleados, jefes de áreas, talento humano, asesor externo), definen las competencias tanto generales como las específicas, indicando los comportamientos que serían indicadores de máximo desempeño, esta decisión permitirá que las competencias se dividan en niveles o grados, tal como se muestra en la tabla 1, ejemplo de una competencia con sus niveles o grados también llamados descriptores de conductas. Es importante tener en cuenta que el Grado D, indica que la competencia está desarrollada en un nivel mínimo.
           br
           .titulo-sexto.color-acento-botones
             h5 Tabla 1.
@@ -389,7 +391,7 @@
                     .col.letra-tabla.d-flex.align-items-center
                       p.m-auto A
                     .col.bg-parrafo-tabla.p-4
-                      p.mb-0.lh-base Capacidad para brindar apoyo y ayuda a los otros, responder a sus necesidades y requerimientos, mediante iniciativas anticipadoras y espontáneas, a fin de facilitar la resolución de problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Capacidad para apoyar decididamente a otras personas y para difundir formas de relación basadas en la confianza. Capacidad para promover el espíritu de colaboración en toda la organización y constituirse en un facilitador para el cobro de los objetivos planteados. Capacidad para implementar mecanismo organizacionales tendientes a fomentar la cooperación interdepartamental como instrumento para la consecución de los objetivos comunes.
+                      p.mb-0.lh-base Capacidad para brindar apoyo y ayuda a los otros, responder a sus necesidades y requerimientos, mediante iniciativas anticipadoras y espontáneas, a fin de facilitar la resolución de problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Capacidad para apoyar decididamente a otras personas y para difundir formas de relación basadas en la confianza. Capacidad para promover el espíritu de colaboración en toda la organización y constituirse en un facilitador para el cobro de los objetivos planteados. Capacidad para implementar mecanismos organizacionales tendientes a fomentar la cooperación interdepartamental como instrumento para la consecución de los objetivos comunes.
 
                   .row.borde-redondeado.m-3
                     .col.letra-tabla.d-flex.align-items-center

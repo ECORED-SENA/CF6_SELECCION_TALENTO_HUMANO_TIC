@@ -75,7 +75,7 @@
           tbody
             tr
               td Virus
-              td Ruido (impacto intermitente y continuo
+              td Ruido (impacto intermitente y continuo)
               td Polvos orgánicos e inorgánicos
               td Gestión organizacional (estilo de mando, pago, contratación, participación, inducción y capacitación, bienestar social, evaluación de desempeño)
               td Posturas (prolongadas, mantenidas, forzadas, anti gravitacional)
@@ -83,9 +83,9 @@
               td Sismo
             tr
               td Bacterias
-              td Iluminación (luz visible por exceso o deficiencia
+              td Iluminación (luz visible por exceso o deficiencia)
               td Fibras
-              td Características de la organización del trabajo (comunicación, tecnología, demandas cualitativas y cualitativas de la labor
+              td Características de la organización del trabajo (comunicación, tecnología, demandas cualitativas y cualitativas de la labor)
               td Esfuerzo
               td Eléctrico: (alta y baja tensión, estática)
               td Terremoto
@@ -109,7 +109,7 @@
               td Parásitos
               td Presión atmosférica
               td Humos metálicos y no metálicos
-              td Relación persona-tarea (conocimiento, habilidades con relación a la demanda de la tarea, iniciativa, autonomía y reconocimiento, identificación de la persona con la tarea y la organización
+              td Relación persona-tarea (conocimiento, habilidades con relación a la demanda de la tarea, iniciativa, autonomía y reconocimiento, identificación de la persona con la tarea y la organización)
               td 
               td Accidente de transito
               td Derrumbe
