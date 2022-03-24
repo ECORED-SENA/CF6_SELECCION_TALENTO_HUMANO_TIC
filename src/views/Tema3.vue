@@ -311,7 +311,7 @@
 
       .row.mt-5
         .col.col-12
-          .row.mb-5.d-flex.align-items-center
+          .row.mb-5.position-relative.bg-gris
             .col.col-12.col-lg-5
               img(src='@/assets/curso/tema3/img08.png', alt='Competencias laborales', class='img-fluid')
             .col.col-12.col-lg-7.pt-sm-4
@@ -352,22 +352,22 @@
             .col.col-12.col-lg-6.mt-4
               .tarjeta-competencias-morada
                 .row
-                  .col-4.ps-3
+                  .col-4.d-flex.justify-content-center
                     img.img90(src='@/assets/curso/tema3/img10.svg', alt='', class='img-fluid')
                   .col-8.d-flex.align-items-end.p-0
                     p.fw-bold.mb-0 Organizacionales
                   .col-12.d-flex.align-items-center.py-5
-                    p.text-small.my-2 Hacen parte del direccionamiento estratégico de la organización e incluyen la cultura y los valores organizacionales, son homogéneas a todos en la organización, también son conocidas como competencias corporativas, generales o transversales.
+                    p.my-2 Hacen parte del direccionamiento estratégico de la organización e incluyen la cultura y los valores organizacionales, son homogéneas a todos en la organización, también son conocidas como competencias corporativas, generales o transversales.
                     
             .col.col-12.col-lg-6.mt-4
               .tarjeta-competencias-morada
                 .row
-                  .col-4.ps-3
+                  .col-4.d-flex.justify-content-center
                     img.img90(src='@/assets/curso/tema3/img11.svg', alt='', class='img-fluid')
                   .col-8.d-flex.align-items-end.p-0
                     p.fw-bold.mb-0 Específicas
                   .col-12.d-flex.align-items-center.py-5
-                    p.text-small.my-2 Tocan directamente al cargo, son todas aquellas que llevan a que una persona sea exitosa en lo que hace y se desempeña.
+                    p.my-2 Tocan directamente al cargo, son todas aquellas que llevan a que una persona sea exitosa en lo que hace y se desempeña.
 
       .row.mt-5
         .col.col-12
@@ -384,30 +384,30 @@
             tbody
               tr
                 td 
-                  p.m-3 Capacidad para brindar apoyo a los otros (pares, superiores y colaboradores), responder a sus necesidades y requerimientos, y solucionar sus problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Implica actuar como facilitador para el logro de los objetivos a fin de crear relaciones basadas en la confianza.
+                  p.m-3.lh-base Capacidad para brindar apoyo a los otros (pares, superiores y colaboradores), responder a sus necesidades y requerimientos, y solucionar sus problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Implica actuar como facilitador para el logro de los objetivos a fin de crear relaciones basadas en la confianza.
                   .row.borde-redondeado.m-3
-                    .col.col-1.letra-tabla.d-flex.align-items-center
+                    .col.letra-tabla.d-flex.align-items-center
                       p.m-auto A
-                    .col.col-11.bg-parrafo-tabla.p-4
-                      p.mb-0 Capacidad para brindar apoyo y ayuda a los otros, responder a sus necesidades y requerimientos, mediante iniciativas anticipadoras y espontáneas, a fin de facilitar la resolución de problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Capacidad para apoyar decididamente a otras personas y para difundir formas de relación basadas en la confianza. Capacidad para promover el espíritu de colaboración en toda la organización y constituirse en un facilitador para el cobro de los objetivos planteados. Capacidad para implementar mecanismo organizacionales tendientes a fomentar la cooperación interdepartamental como instrumento para la consecución de los objetivos comunes.
+                    .col.bg-parrafo-tabla.p-4
+                      p.mb-0.lh-base Capacidad para brindar apoyo y ayuda a los otros, responder a sus necesidades y requerimientos, mediante iniciativas anticipadoras y espontáneas, a fin de facilitar la resolución de problemas o dudas, aunque las mismas no hayan sido manifestadas expresamente. Capacidad para apoyar decididamente a otras personas y para difundir formas de relación basadas en la confianza. Capacidad para promover el espíritu de colaboración en toda la organización y constituirse en un facilitador para el cobro de los objetivos planteados. Capacidad para implementar mecanismo organizacionales tendientes a fomentar la cooperación interdepartamental como instrumento para la consecución de los objetivos comunes.
 
                   .row.borde-redondeado.m-3
-                    .col.col-1.letra-tabla.d-flex.align-items-center
+                    .col.letra-tabla.d-flex.align-items-center
                       p.m-auto B
-                    .col.col-11.bg-parrafo-tabla.p-4
-                      p.mb-0 Capacidad para brindar ayuda y colaboración a las personas de su área y de otros sectores de la organización relacionados, mostrar interés por sus necesidades, aunque las mismas no hayan sido manifestadas expresamente, y apoyarlas en el cumplimiento de sus objetivos. Capacidad para crear relaciones de confianza. Capacidad para utilizar los mecanismos organizacionales que promuevan la cooperación interdepartamental y para proponer mejoras respecto de ellos.
+                    .col.bg-parrafo-tabla.p-4
+                      p.mb-0.lh-base Capacidad para brindar ayuda y colaboración a las personas de su área y de otros sectores de la organización relacionados, mostrar interés por sus necesidades, aunque las mismas no hayan sido manifestadas expresamente, y apoyarlas en el cumplimiento de sus objetivos. Capacidad para crear relaciones de confianza. Capacidad para utilizar los mecanismos organizacionales que promuevan la cooperación interdepartamental y para proponer mejoras respecto de ellos.
 
                   .row.borde-redondeado.m-3
-                    .col.col-1.letra-tabla.d-flex.align-items-center
+                    .col.letra-tabla.d-flex.align-items-center
                       p.m-auto C
-                    .col.col-11.bg-parrafo-tabla.p-4
-                      p.mb-0 Capacidad para apoyar y colaborar activamente con los integrantes de su propia área mediante una clara disposición a ayudar a otros, incluso antes de que hayan manifestado expresamente la necesidad de colaboración. Capacidad  para escuchar los requerimientos de los demás y para ayudarlos en el cumplimiento de sus objetivos, sin descuidar los propios.
+                    .col.bg-parrafo-tabla.p-4
+                      p.mb-0.lh-base Capacidad para apoyar y colaborar activamente con los integrantes de su propia área mediante una clara disposición a ayudar a otros, incluso antes de que hayan manifestado expresamente la necesidad de colaboración. Capacidad  para escuchar los requerimientos de los demás y para ayudarlos en el cumplimiento de sus objetivos, sin descuidar los propios.
 
                   .row.borde-redondeado.m-3
-                    .col.col-1.letra-tabla.d-flex.align-items-center
+                    .col.letra-tabla.d-flex.align-items-center
                       p.m-auto D
-                    .col.col-11.bg-parrafo-tabla.p-4
-                      p.mb-0 Capacidad para cooperar y brindar soporte a las personas de su entorno cuando se lo solicitan y tener en cuenta las necesidades de los demás.
+                    .col.bg-parrafo-tabla.p-4
+                      p.mb-0.lh-base Capacidad para cooperar y brindar soporte a las personas de su entorno cuando se lo solicitan y tener en cuenta las necesidades de los demás.
           br
           figcaption Nota: Alles, M (2015).
 
@@ -418,12 +418,12 @@
           #t_3_2.titulo-segundo.color-acento-contenido
             h2 3.2 Herramientas para estructuración de cargos
 
-          .row.mb-5.d-flex.align-items-center
-            .col.col-12.col-lg-5
+          .row.mb-5.d-flex.align-items-center.position-relative.bg-gris-herramientas
+            .col.col-12.col-lg-4
               picture
                 img(src='@/assets/curso/tema3/img06.png', alt='Herramientas para estructuración de cargos', class='img-fluid')
-            .col.col-12.col-lg-7
-              p Estructurar los cargos es una actividad que requiere evaluar todas las condiciones requeridas en diversos perfiles y a su vez existen métodos para ello, lo cual se detalla a continuación.
+            .col.col-12.col-lg-8
+              p.mb-5 Estructurar los cargos es una actividad que requiere evaluar todas las condiciones requeridas en diversos perfiles y a su vez existen métodos para ello, lo cual se detalla a continuación.
               .row.mt-5
                 .col.col-6
                   a(href="#observatorio")
@@ -431,76 +431,81 @@
                 .col.col-6
                   a(href="#metodos")
                     img(src='@/assets/curso/tema3/img20.svg', alt='', class='img-fluid')
-
-      .row.mt-5
-        .col.col-3.mb-2
-          #observatorio.titulo.bg-cajon-lila.d-flex.align-items-center.p-2 
-            h2.m-0 Observatorio laboral
-        .col.col-12
-          .row.mb-2.d-flex.align-items-center
-            .col.col-12.col-lg-7
-              p Con el objeto de organizar las ocupaciones a nivel nacional e internacional se ha creado el Observatorio laboral donde se encuentran clasificadas todas las ocupaciones de acuerdo a las necesidades del mercado laboral en relación a su talento humano y a la formación, es así, como a través del observatorio laboral se monitorea el comportamiento de las ocupaciones.
-              .row
-                .col.col-1
-                  img(src='@/assets/curso/tema3/dots-blanco-azul.svg', alt='dots', class='img-fluid')
-                .col.col-11
-                  p.texto-azul.fw-bold En el laboratorio laboral se encuentra un diccionario de oficios ocupacionales identificados para todo el país, llamado Clasificación nacional de Ocupaciones CNO. Esta estructura facilita la agrupación de empleos y la descripción de las ocupaciones de una manera ordenada y uniforme, por lo que permite identificar las salidas ocupacionales de los programas de formación para el trabajo.
-              p Esta clasificación tiene en cuenta dos criterios:
-            .col.col-12.col-lg-5
-              picture
-                img(src='@/assets/curso/tema3/img12.png', alt='Observatorio laboral', class='img-fluid')
-
-          .row.mb-4
-            .col.col-12.col-lg-6.mt-4
-              .tarjeta-competencias-morada
+      .bg-laboratorio
+        .row.mt-5.position-relative
+          .col.col-3.mb-5
+            #observatorio.titulo.bg-cajon-lila.d-flex.align-items-center.p-2 
+              h2.m-0 Observatorio laboral
+          .col-auto.position-absolute.top-0.end-0
+            a(href="#t_3_2")
+              img(src='@/assets/curso/tema3/back.svg', alt='', class='img-fluid')
+          .col.col-12.position-relative.bg-gris-izquierdo
+            .row.mb-2
+              .col.col-12.col-lg-7
+                p Con el objeto de organizar las ocupaciones a nivel nacional e internacional se ha creado el Observatorio laboral donde se encuentran clasificadas todas las ocupaciones de acuerdo a las necesidades del mercado laboral en relación a su talento humano y a la formación, es así, como a través del observatorio laboral se monitorea el comportamiento de las ocupaciones.
                 .row
-                  .col-4.ps-3
-                    img.img90(src='@/assets/curso/tema3/img13.svg', alt='', class='img-fluid')
-                  .col-8.d-flex.align-items-end.p-0
-                    p.fw-bold.mb-0 Área de desempeño
-                  .col-12.d-flex.align-items-center.py-5
-                    p.text-small.my-2 Campo de actividad definido por el tipo y naturaleza del trabajo que es desarrollado.
-                    
-            .col.col-12.col-lg-6.mt-4
-              .tarjeta-competencias-morada
-                .row
-                  .col-4.ps-3
-                    img.img90(src='@/assets/curso/tema3/img14.svg', alt='', class='img-fluid')
-                  .col-8.d-flex.align-items-end.p-0
-                    p.fw-bold.mb-0 Nivel de cualificación
-                  .col-12.d-flex.align-items-center.py-5
-                    p.text-small.my-2 Se refiere a la complejidad de las funciones, el nivel de autonomía y responsabilidad en el desempeño, la cantidad, tipo y nivel de educación, capacitación y experiencia requeridos para su desempeño.
+                  .col.col-1
+                    img(src='@/assets/curso/tema3/dots-blanco-azul.svg', alt='dots', class='img-fluid')
+                  .col.col-11
+                    p.texto-azul.fw-bold En el laboratorio laboral se encuentra un diccionario de oficios ocupacionales identificados para todo el país, llamado Clasificación nacional de Ocupaciones CNO. Esta estructura facilita la agrupación de empleos y la descripción de las ocupaciones de una manera ordenada y uniforme, por lo que permite identificar las salidas ocupacionales de los programas de formación para el trabajo.
+                p Esta clasificación tiene en cuenta dos criterios:
+              .col.col-12.col-lg-5
+                picture
+                  img(src='@/assets/curso/tema3/img12.png', alt='Observatorio laboral', class='img-fluid')
+          .col.col-12
+            .row.mb-4
+              .col.col-12.col-lg-6.mt-4
+                .tarjeta-competencias-morada
+                  .row
+                    .col-4.d-flex.justify-content-center
+                      img.img90(src='@/assets/curso/tema3/img13.svg', alt='', class='img-fluid')
+                    .col-8.d-flex.align-items-end.p-0
+                      p.fw-bold.mb-0 Área de desempeño
+                    .col-12.d-flex.align-items-center.py-5
+                      p.my-2 Campo de actividad definido por el tipo y naturaleza del trabajo que es desarrollado.
+                      
+              .col.col-12.col-lg-6.mt-4
+                .tarjeta-competencias-morada
+                  .row
+                    .col-4.d-flex.justify-content-center
+                      img.img90(src='@/assets/curso/tema3/img14.svg', alt='', class='img-fluid')
+                    .col-8.d-flex.align-items-end.p-0
+                      p.fw-bold.mb-0 Nivel de cualificación
+                    .col-12.d-flex.align-items-center.py-5
+                      p.my-2 Se refiere a la complejidad de las funciones, el nivel de autonomía y responsabilidad en el desempeño, la cantidad, tipo y nivel de educación, capacitación y experiencia requeridos para su desempeño.
 
 
-          .row.mb-3.d-flex.align-items-center
-            .col.col-12.col-lg-4
-              picture
-                img(src='@/assets/curso/tema3/img15.png', alt='', class='img-fluid')
-            .col.col-12.col-lg-8
-              p Reconocer la organización sistemática de las ocupaciones existentes en el mercado laboral (denominaciones, funciones, habilidades, conocimientos), son base para la definición de perfiles de cargos.
-              .tarjeta.color-primario.p-3.mb-5
-                .row.justify-content-around.align-items-center
-                  .col-2
-                    img.img90(src="@/assets/curso/tema3/img16.svg")
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h3.mb-1.text-white Clasificación Nacional de Ocupaciones
-                        p.text-small.text-white Para ampliar información consulte el siguiente enlace,  en este encontrará una descripción de qué es la Clasificación Nacional de Ocupaciones, y cómo se clasifican las ocupaciones en el país.
-                      .col-sm-auto
-                        a.boton.color-acento-botones(href="https://observatorio.sena.edu.co/Clasificacion/Cno" target="_blank")
-                          span Abrir enlace
-                          i.fas.fa-link
+            .row.mb-3.d-flex.align-items-center
+              .col.col-12.col-lg-4
+                picture
+                  img(src='@/assets/curso/tema3/img15.png', alt='', class='img-fluid')
+              .col.col-12.col-lg-8
+                p Reconocer la organización sistemática de las ocupaciones existentes en el mercado laboral (denominaciones, funciones, habilidades, conocimientos), son base para la definición de perfiles de cargos.
+                .tarjeta.bg-enlace-ocupaciones.p-3.mb-5
+                  .row.justify-content-around.align-items-center
+                    .col-2
+                      img.img90(src="@/assets/curso/tema3/img16.svg")
+                    .col
+                      .row.justify-content-between.align-items-center
+                        .col.mb-3.mb-sm-0
+                          h3.mb-3.text-white Clasificación Nacional de Ocupaciones
+                          p.text-small.text-white Para ampliar información consulte el siguiente enlace,  en este encontrará una descripción de qué es la Clasificación Nacional de Ocupaciones, y cómo se clasifican las ocupaciones en el país.
+                        .col-sm-auto
+                          a.boton.color-acento-botones(href="https://observatorio.sena.edu.co/Clasificacion/Cno" target="_blank")
+                            span Abrir enlace
+                            i.fas.fa-link
 
           hr              
-
-        .col.col-6.mb-2
-          #metodos.titulo.bg-cajon-lila.d-flex.align-items-center.p-2 
+      .row.mt-5.position-relative
+        .col.col-6.mb-5
+          #metodos.titulo.bg-cajon-lila.p-2 
             titulo     
               h2.mb-0 Métodos o fuentes de recolección de datos
-
-        .col.col-12
-          .row.mb-5.d-flex.align-items-center
+        .col-auto.position-absolute.top-0.end-0
+          a(href="#t_3_2")
+            img(src='@/assets/curso/tema3/back.svg', alt='', class='img-fluid')
+        .col.col-12.position-relative.bg-gris-izquierdo
+          .row.mb-2
             .col.col-12.col-lg-7
               p Las fuentes de Información son todos aquellos instrumentos con los que se obtienen los datos requeridos, que luego se transforman en información para la toma de decisiones y obtención de conocimiento.
               p De acuerdo a su origen se clasifican en:
@@ -517,7 +522,7 @@
                     span.texto-color-acento-contenido.fw-bold Fuentes secundarias: 
                     | se obtienen de datos ya elaborados, libros, internet, entre otros.
 
-              .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
+              .cajon.color-acento-botones.bg-cajon-amarillo.p-4
                 p Para efectos del levantamiento de la información, en la construcción de la descripción de cargos, se utilizarán fuentes primarias. Dentro de estas tenemos:
 
             .col.col-12.col-lg-5
@@ -525,6 +530,7 @@
                 img(src='@/assets/curso/tema3/img17.png', alt='Las fuentes de Información', class='img-fluid')
 
 
+        .col.col-12
           .row.mb-5
             .col.col-12.col-lg-4
               picture
