@@ -62,9 +62,11 @@
               th(colspan=7) TABLA DE PELIGROS (NTC 45)
             tr
               th(colspan=7) Clasificación 
+        
         table.peligros
-          thead
-            tr
+          tbody
+            tr.thead
+              td.descripcion(rowspan=9) DESCRIPCIÓN
               th Biológico
               th Físico
               th Químico
@@ -72,7 +74,6 @@
               th Biomecánico
               th Condiciones de seguridad
               th Fenómenos naturales
-          tbody
             tr
               td Virus
               td Ruido (impacto intermitente y continuo)

@@ -221,7 +221,7 @@
 
       .col.col-12
         .titulo-segundo.color-acento-contenido
-          h2 3.1.1 Cargo  
+          h2 Cargo  
 
         .row.mb-5
           .col.col-12.col-lg-5
@@ -251,13 +251,13 @@
         .row
           .col.col-12.mt-4
             .titulo-segundo.color-acento-contenido
-              h2 3.1.2 Competencia y niveles de cualificación
+              h2 Competencia y niveles de cualificación
             
             .row.d-flex.justify-content-center.position-relative
               .col.col-12
                 img(src='@/assets/curso/tema3/img07.png', alt='Competencia y niveles de cualificación', class='img-fluid')
               .col.col-10.bg-gradiente-gris.px-4.py-3.rounded-3.position-absolute.bottom-0
-                p.mb-0.text-small Las organizaciones propenden por garantizar un personal competente, que cumpla con los requerimientos del cargo, en el cumplimiento de los objetivos de la misma, esto quiere decir que el empleado coloca al servicio de la empresa un conjunto de competencias que muestran sus destrezas en la realización de las actividades asignadas.
+                p.mb-0.text-small.lh-lg Las organizaciones propenden por garantizar un personal competente, que cumpla con los requerimientos del cargo, en el cumplimiento de los objetivos de la misma, esto quiere decir que el empleado coloca al servicio de la empresa un conjunto de competencias que muestran sus destrezas en la realización de las actividades asignadas.
             
     .row.mt-5.d-flex.justify-content-center
       .col.col-12.bg-img-slyder

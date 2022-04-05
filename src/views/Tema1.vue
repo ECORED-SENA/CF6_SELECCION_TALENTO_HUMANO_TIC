@@ -231,7 +231,7 @@
         .titulo-sexto.color-acento-botones
           h5 Figura 1.
           span Simbología para organigramas
-        img(src='@/assets/curso/tema1/img22.png', alt='Simbología para organigramas', class='img-fluid')
+        img(src='@/assets/curso/tema1/img22.svg', alt='Simbología para organigramas', class='img-fluid')
         br
         figcaption Nota. Yaemi, L (2013).
 </template>

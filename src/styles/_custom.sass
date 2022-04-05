@@ -149,7 +149,7 @@
 
 .tarjeta-tipo-organigrama
   background-color: #FFF
-  width: 22%
+  width: 24%
 
 .bg-simbologia  
   position: relative
@@ -488,10 +488,21 @@ table.peligros
     font-size: 13px
     line-height: 2em
 
-  tr:nth-child(even)
+  tr:nth-child(odd)
     background: #E8E8E8
 
-  thead
+  .descripcion 
+    background-color: #FFF
+    // writing-mode: vertical-lr
+    // text-orientation: upright    
+    font-size: 13px
+    font-weight: bold
+    width: 40px
+    word-wrap: break-word
+    // text-align: center
+    padding-right: 15px
+
+  .thead
     background: #E8E8E8
     background: -moz-linear-gradient(top, #eeeeee 0%, #eaeaea 66%, #E8E8E8 100%)
     background: -webkit-linear-gradient(top, #eeeeee 0%, #eaeaea 66%, #E8E8E8 100%)
