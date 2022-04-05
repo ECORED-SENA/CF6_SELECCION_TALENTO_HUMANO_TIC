@@ -159,7 +159,9 @@
           
           .row.mb-5.d-flex.align-items-center
             .col.col-12.col-lg-7
-              p Con el fin de ilustrar la estructura organizacional y entenderla sin leerla textualmente, se utilizan símbolos en formas geométricas para expresar la comunicación, los vínculos, los niveles organizacionales, las unidades de categoría especial como la línea staff, etc. Los cuales cuentan con un significado específico para que haya comprensión de lo que se pretende presentar.
+              p Con el fin de ilustrar la estructura organizacional y entenderla sin leerla textualmente, se utilizan símbolos en formas geométricas para expresar la comunicación, los vínculos, los niveles organizacionales, las unidades de categoría especial como la línea 
+                em staff, 
+                | etc. Los cuales cuentan con un significado específico para que haya comprensión de lo que se pretende presentar.
               .cajon.color-acento-botones.bg-cajon-amarillo.p-4.mb-4
                 p La simbología más empleada por las organizaciones es:
             .col.col-12.col-lg-5
