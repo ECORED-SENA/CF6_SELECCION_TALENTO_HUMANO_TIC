@@ -7,7 +7,7 @@
         .titulo-principal.color-acento-contenido
           .titulo-principal__numero
             span.text-white 3
-          h1 Diseño del cargo
+          h1 Diseño de cargos
 
         .row.mb-5.position-relative.bg-gris-izquierdo
           .col.col-12.col-lg-7.pe-4
@@ -66,7 +66,7 @@
                     img.img90.m-auto.mb-3(src='@/assets/curso/tema3/Icon1.svg', alt='¿Qué hace?')
                     h3.text-center ¿Qué hace?
                     p.text-center.mb-0 Tarea
-                    p.text-center Activiades
+                    p.text-center Actividades
 
             .col.mb-4.px-1
               .tarjeta.tarjeta-gris.p-4

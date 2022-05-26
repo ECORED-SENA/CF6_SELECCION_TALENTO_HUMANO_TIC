@@ -80,7 +80,7 @@ export default {
       {
         icono: 'fas fa-sitemap',
         titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
+        nombreRuta: 'síntesis',
       },
       {
         nombreRuta: 'actividad',
@@ -150,7 +150,7 @@ export default {
   glosario: [
     {
       termino: 'Actividades',
-      significado: 'Conjunto de tareas de tiene una persona en un cargo.',
+      significado: 'Conjunto de tareas que tiene una persona en un cargo.',
     },
     {
       termino: 'Base de datos',
@@ -180,7 +180,7 @@ export default {
     {
       termino: 'Niveles organizacionales',
       significado:
-        'Los niveles o pirámide organizacionales corresponden a los tres niveles de gestión existentes en la mayoría de las organizaciones. Nivel estratégico, táctico y operacional.',
+        'Los niveles o pirámides organizacionales corresponden a los tres niveles de gestión existentes en la mayoría de las organizaciones. Nivel estratégico, táctico y operacional.',
     },
     {
       termino: 'Ocupaciones',
@@ -242,6 +242,32 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Alexis Viloria Guerrero',
+        cargo: 'Experto temático',
+        centro: 'Centro Gestión Administrativa - Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Perilla',
+        cargo: 'Adecuación instruccional',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseño instruccional',
+        centro: 'Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -251,30 +277,54 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Jesus Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Lizeth Karina Manchego Suarez',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
